@@ -12,3 +12,5 @@ spring:
       hibernate: 
         dialect: org.hibernate.dialect.PostgreSQLDialect
         ddl-auto: create
+        temp: 
+          use_jdbc_metadata_defaults: false
