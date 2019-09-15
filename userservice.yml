@@ -8,9 +8,8 @@ spring:
     password: 
 
   jpa:
-    properties:
-      hibernate: 
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        ddl-auto: create-drop
-        temp: 
-          use_jdbc_metadata_defaults: false
+    hibernate: 
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+    ddl-auto: create-drop
+    temp: 
+      use_jdbc_metadata_defaults: false
