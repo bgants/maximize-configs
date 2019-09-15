@@ -1,6 +1,5 @@
 server:
   port: 8089
-
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/userdb
@@ -9,7 +8,7 @@ spring:
 
   jpa:
     hibernate: 
-    dialect: org.hibernate.dialect.PostgreSQLDialect
-    ddl-auto: create-drop
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: create-drop
     temp: 
       use_jdbc_metadata_defaults: false
