@@ -11,6 +11,11 @@ spring:
       ddl-auto: create-drop
     temp: 
       use_jdbc_metadata_defaults: false
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
   activemq:
     in-memory: false
     broker-url: tcp://activemq
