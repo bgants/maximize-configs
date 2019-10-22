@@ -19,3 +19,7 @@ spring:
   activemq:
     in-memory: false
     broker-url: tcp://activemq
+  jms:
+    template:
+      default-destination: maximize.user.queue
+
