@@ -20,6 +20,7 @@ spring:
     in-memory: false
     broker-url: tcp://activemq:61616
   jms:
-    template:
-      default-destination: user.queue
+    #template:
+    #  default-destination: user.queue
+    pub-sub-domain: true
 
